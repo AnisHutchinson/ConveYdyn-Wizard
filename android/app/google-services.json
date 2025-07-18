@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "798479733635",
+    "project_id": "conveydyn-project",
+    "storage_bucket": "conveydyn-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798479733635:android:a5712dc99d772ad66b1cb6",
+        "android_client_info": {
+          "package_name": "com.example.test_projet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlrMOeofLwa2YPZpxpOFoRYjcmU45s10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
