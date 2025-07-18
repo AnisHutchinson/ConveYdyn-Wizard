@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:conveydyn_wizard/Component/SettingPopPup.dart';
+import 'package:conveydyn_wizard/Component/settingPopPup.dart';
 import 'package:conveydyn_wizard/Component/showCookiesDialog.dart' hide SettingsDialogWithBlur, showSettingsPopupWithBlur;
 import 'package:conveydyn_wizard/Service/DataManager.dart';
 import 'package:conveydyn_wizard/Service/SharedPref.dart';
@@ -11,7 +11,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_email_sender/flutter_email_sender.dart';
-import '../Service/Customroute.dart';
+import '../Service/customroute.dart';
 
 class HelpersFunct {
   Future<void> launch_Url(url) async {

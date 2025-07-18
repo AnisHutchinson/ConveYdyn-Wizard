@@ -6,13 +6,13 @@ import 'package:conveydyn_wizard/Component/CookiesConsentBanner.dart';
 import 'package:conveydyn_wizard/Component/SettingPopPup.dart';
 import 'package:conveydyn_wizard/Presentation/CurvedConveyor/TransmissionGeometry.dart';
 import 'package:conveydyn_wizard/Presentation/StraightConveyor/TransmissionGeometry.dart';
-import 'package:conveydyn_wizard/Service/Customroute.dart';
+import 'package:conveydyn_wizard/Service/customroute.dart';
 import 'package:conveydyn_wizard/Service/DataManager.dart';
 import 'package:conveydyn_wizard/Service/SharedPref.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../Service/Customroute.dart';
+import '../Service/customroute.dart';
 import '../Component/showCookiesDialog.dart';
-import '../Service/Interaction.dart';
+import '../Service/interaction.dart';
 import '../Utils/helper.dart';
 class Home extends StatefulWidget {
   //final VoidCallback onNavigate;

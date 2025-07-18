@@ -6,7 +6,7 @@ import "package:flutter/rendering.dart";
 import "package:flutter/services.dart";
 import "package:provider/provider.dart";
 import "package:conveydyn_wizard/Presentation/Result.dart";
-import "package:conveydyn_wizard/Service/Customroute.dart";
+import "package:conveydyn_wizard/Service/customroute.dart";
 import "package:conveydyn_wizard/Service/DataManager.dart";
 import "package:conveydyn_wizard/Service/PageManager.dart";
 import '../Utils/Style.dart';

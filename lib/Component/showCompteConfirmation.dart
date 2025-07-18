@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import '../Service/Interaction.dart';
+import '../Service/interaction.dart';
 
 Future<void> showConfirmationCodeDialog(BuildContext context, String userEmail, Completer<bool> completer) async{
   final TextEditingController codeController = TextEditingController();

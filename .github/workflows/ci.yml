@@ -24,7 +24,7 @@ jobs:
       - name: install dependencies
         run: flutter pub get
       - name: build APK
-        run: flutter build apk --release
+        run: flutter build apk
       - name: upload APK artifact
         uses: actions/upload-artifact@v4
         with: 

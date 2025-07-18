@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:provider/provider.dart';
 import 'package:conveydyn_wizard/Service/DataManager.dart';
-import 'package:conveydyn_wizard/Service/Interaction.dart';
+import 'package:conveydyn_wizard/Service/interaction.dart';
 import 'package:conveydyn_wizard/Service/SharedPref.dart';
 import 'package:conveydyn_wizard/Utils/Inpute.dart';
-import 'package:conveydyn_wizard/Utils/Shape.dart';
+import 'package:conveydyn_wizard/Utils/shape.dart';
 import 'package:conveydyn_wizard/Utils/constant.dart';
 import 'package:conveydyn_wizard/Utils/helper.dart';
 

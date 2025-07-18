@@ -605,3 +605,4 @@ C:\Users\anism\Documents\Conveydyn\New_mail\Conveydyn Wizard\backend_Api\bin\Deb
 C:\Users\anism\Documents\Conveydyn\New_mail\Conveydyn Wizard\backend_Api\bin\Debug\net8.0\OneSignalApi.dll
 C:\Users\anism\Documents\Conveydyn\New_mail\Conveydyn Wizard\backend_Api\bin\Debug\net8.0\Polly.dll
 C:\Users\anism\Documents\Conveydyn\New_mail\Conveydyn Wizard\backend_Api\bin\Debug\net8.0\RestSharp.dll
+C:\Users\anism\Documents\Conveydyn\New_mail\Conveydyn Wizard\backend_Api\obj\Debug\net8.0\backend_Api.sourcelink.json
