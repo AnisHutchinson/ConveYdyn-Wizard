@@ -1,0 +1,58 @@
+name: CI 
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+
+  build_fluttre_adnroid:
+    name: Build-Flutter-android
+    runs-on: ubuntu-latest
+
+    defaults:
+      run: frontend
+    
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+      
+      - name: setup Flutter
+        uses: subosito/flutter-action@v2
+        with: 
+          flutter-version: '3.32.0'
+          channel: 'stable'
+      - name: install dependencies
+        run: flutter pub get
+      - name: build APK
+        run: flutter build apk --release
+      - name: upload APK artifact
+        uses: actions/upload-artifact@v3
+        with: 
+          name: flutter-apk
+          path:
+            build/app/outputs/flutter-apk/app-release.apk 
+  
+  dotnet_build:
+    name: Build ASP.NET API 
+    runs-on: windows-latest
+
+    defaults:
+      run: 
+        working-directory: backend_Api
+    
+    steps:
+      - name: checkout repository
+        use: actions/checkout@v3
+      
+      - name: setup .Net sdk
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.411'
+      - name: build solution
+        run: dotnet build --configuration Release --no-restore
+        
+    
+  
