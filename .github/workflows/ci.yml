@@ -11,9 +11,6 @@ jobs:
   build_fluttre_adnroid:
     name: Build-Flutter-android
     runs-on: ubuntu-latest
-
-    defaults:
-      run: frontend
     
     steps:
       - name: checkout repository
