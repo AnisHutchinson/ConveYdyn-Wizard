@@ -45,7 +45,7 @@ jobs:
     
     steps:
       - name: checkout repository
-        use: actions/checkout@v3
+        uses: actions/checkout@v3
       
       - name: setup .Net sdk
         uses: actions/setup-dotnet@v4
@@ -53,6 +53,6 @@ jobs:
           dotnet-version: '8.0.411'
       - name: build solution
         run: dotnet build --configuration Release --no-restore
-        
+
     
   
